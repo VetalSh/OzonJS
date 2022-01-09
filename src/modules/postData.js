@@ -1,5 +1,4 @@
 const postData = () => {
-  .then(res => res.json());
   return fetch('http://localhost:3000/goods', {
     method: 'POST',
     body: JSON.stringify({
